@@ -2,7 +2,8 @@ name: Run Python Script
 
 # When to run the workflow
 on:
-  workflow_dispatch:
+  push:
+    branches: [ main ]
 
 jobs:
   run-python:
